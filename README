@@ -1,13 +1,21 @@
-# WolframAlpha
+# WolframAlpha Clojure Example
 
-FIXME: write description
+This simple project is a wraper for the Java APIs for using Wolfram Alpha
 
 ## Usage
 
-FIXME: write
+This project pulls some required JAR files from clojars.org and copies the rest from the local directory local_lib
+
+Do:
+
+make
+lein run
+
+> (test)
+
 
 ## License
 
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 Mark Watson
 
 Distributed under the Eclipse Public License, the same as Clojure.
