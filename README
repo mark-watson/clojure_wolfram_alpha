@@ -1,21 +1,20 @@
 # WolframAlpha Clojure Example
 
-This simple project is a wraper for the Java APIs for using Wolfram Alpha
+This simple project is a wrapper for the Java APIs for using Wolfram Alpha
 
 ## Usage
 
-This project pulls some required JAR files from clojars.org and copies the rest from the local directory local_lib
+This project pulls some required JAR files from clojars.org and copies the rest from the local directory local_lib. I set the jars in local_lib as resources in project.clj.
 
-Do:
+Try this:
 
-make
-lein run
-
-> (test)
-
+        lein deps
+        lein repl
+		user=> (use 'wolfram)
+		user=> (query "pi")
 
 ## License
 
-Copyright (C) 2012 Mark Watson
+Copyright (C) 2012-2014 Mark Watson
 
 Distributed under the Eclipse Public License, the same as Clojure.
